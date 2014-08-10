@@ -1,25 +1,36 @@
 $asphalt: #34495e;
+$silver: #bdc3c7;
 
 
 
-body, html {
-
+body, html, h1, h2, h3, h4 {
+	font-family: 'Courgette', cursive;
 }
 
 .row {
   max-width: none;
 }
 h1 {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 4rem;
+}
+h4 {
+  padding-bottom: 7rem;
 }
 
 .centered {
   text-align: center;
 }
-
 .asphalt {
+  color: $asphalt;
+}
+.silver {
+  color: $silver;
+}
+.asphalt_bk {
   background-color: $asphalt;
+}
+.silver_bk {
+  background-color: $silver;
 }
 
 #header_div {
