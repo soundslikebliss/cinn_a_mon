@@ -21,3 +21,11 @@ h1 {
 .asphalt {
   background-color: $asphalt;
 }
+
+#header_div {
+  background-image: url('../images/toast.jpg');
+  height: 30rem;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.75;
+}
