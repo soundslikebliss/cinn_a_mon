@@ -1,0 +1,23 @@
+$asphalt: #34495e;
+
+
+
+body, html {
+
+}
+
+.row {
+  max-width: none;
+}
+h1 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.asphalt {
+  background-color: $asphalt;
+}
