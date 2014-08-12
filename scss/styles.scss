@@ -11,16 +11,10 @@ body, html, h1, h2, h3, h4 {
   max-width: none;
 }
 h1 {
-  padding-top: 4rem;
+/*   padding-top: 4rem; */
 }
 h3 {
-  padding-bottom: 7rem;
-  @media #{$small-only} { 
-  	padding: 1em 2em 1.5em 2em;
-  }
-	@media #{$medium-up} {
-    padding: 1em 10em 4em 10em;
-  }
+/*   padding: 1rem 0 6rem 0; */
 }
 
 .centered {
@@ -46,10 +40,14 @@ i {
    color: $silver;
 }
 
+.small-6 {
+	margin: 6rem;
+  text-align: center;
+}
 
 #header_div {
   background-image: url('../images/toast.jpg');
-  height: 30rem;
+  height: 45rem;
   background-size: cover;
   background-position: center;
   opacity: 0.75;
@@ -59,10 +57,7 @@ i {
   }
 }
 #footer_div {
-/*   height: 35em; */
-/*   @media #{$small-only} {
-    height: 25em;
-  } */
+	opacity: 0.50;
 }
 
 
