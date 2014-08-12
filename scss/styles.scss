@@ -13,8 +13,14 @@ body, html, h1, h2, h3, h4 {
 h1 {
   padding-top: 4rem;
 }
-h4 {
+h3 {
   padding-bottom: 7rem;
+  @media #{$small-only} { 
+  	padding: 1em 2em 1.5em 2em;
+  }
+	@media #{$medium-up} {
+    padding: 1em 10em 4em 10em;
+  }
 }
 
 .centered {
@@ -32,6 +38,14 @@ h4 {
 .silver_bk {
   background-color: $silver;
 }
+.icons {
+  text-align: center;
+}
+i {
+  font-size: 10em;
+   color: $silver;
+}
+
 
 #header_div {
   background-image: url('../images/toast.jpg');
@@ -39,4 +53,50 @@ h4 {
   background-size: cover;
   background-position: center;
   opacity: 0.75;
+  text-align: center;
+  h2 {
+    margin-top: 7em;
+  }
 }
+#footer_div {
+/*   height: 35em; */
+/*   @media #{$small-only} {
+    height: 25em;
+  } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
