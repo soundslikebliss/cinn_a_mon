@@ -5,8 +5,11 @@ $silver: #bdc3c7;
 body, html, h1, h2, h3, h4 {
 	font-family: 'Courgette', cursive;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
   padding: 2rem;
+}
+h3 {
+  margin: 1rem;
 }
 
 .row {
@@ -29,10 +32,11 @@ h1, h2, h3{
 
 .asphalt_bk {
   background-color: $asphalt;
+  opacity:	0.9;
 }
 .silver_bk {
   background-color: $silver;
-  opacity: 0.6;
+/*   opacity: 0.2; */
 }
 
 
@@ -76,16 +80,27 @@ i {
 #footer_div {
 }
 
+.box {
+  border: 1px solid black;
+}
+
+
+
 
 
 
 @media only screen and (min-width: 64.063em) { 
-  .centered {
-    h2 {
-			color: red;
-    }
+  #padding_header {
+    padding:	9rem;
+  	}
+  .bottom {
+  	margin-bottom: 6rem;
+		}
+  .needs {
+    margin-top: 4rem;
+  	}
   }
-}
+
 
 
 
