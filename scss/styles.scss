@@ -11,6 +11,10 @@ h1, h2, h3, h4{
 h3 {
   margin: 1rem;
 }
+.arial {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
 
 .row {
   max-width: none;
@@ -39,8 +43,16 @@ h3 {
 /*   opacity: 0.2; */
 }
 .pattern {
+  padding: 1em;
   background-image: url("../images/otis_redding.png");
   background-repeat: repeat;
+  	.pattern_bottom {
+      margin-bottom: 5em;
+    }
+}
+
+.border_white {
+  border: 1px solid white;
 }
 
 
@@ -84,13 +96,17 @@ i {
 }
 
 #footer_div {
+  margin-bottom: 8rem;
 }
 
-.box {
+/* .box {
   border: 1px solid black;
 }
+ */
 
-
+#footer_ack {
+  margin-top: 4rem;
+}
 
 
 
